@@ -1,0 +1,118 @@
+Reactjs
+
+13/04/2019
+
+session-1
+========================================================================================
+Tuturiol-1
+==============================
+Reactjs is a library
+Highly reactive
+superfast javascript driven web applications
+javasccript runs in the browser 
+
+Tuturiol-2
+==============================
+Getting started with react
+ what?
+    js library for building user interfaces 
+    javascript driven apps
+ why?
+   they run on the browser
+   we dont want to wait for server response
+ How?
+   user interfaces
+         ->user what they see
+         ->uses components (header, siderbar,bottom,article)
+         ->component are blocks that contains piece of code.
+         -> custom html element 
+  maintanable
+  managable
+  resuable
+
+Tuturiol-3
+==============================
+Its about component explaning with reactjs site and udemy site..
+
+
+Tuturiol -4
+==============================
+code pen  work:
+w
+we have to use two external js:
+  1. react.min.js
+  2. react.dom.min.js
+
+babel concepts
+jsx concepts
+
+props concepts
+   it can be used to get the dynamic content as a argument.
+
+ReactDom exposes the object. 
+reactDom has render method, which can render the javascript function as component to the real DOM
+In render method we can render a js function as a html element
+
+In react class will be named as className
+In react we use single open close curly braces to print the dyanmic value in the variable.
+
+Tuturiol -5 why
+==============================
+
+why react
+
+ui state becomes difficult to handle with vanilla javascript
+focus on business , not on preventing the app exploding and also using this with frameworks will gives us a better code.
+
+huge ecosystem, bigger community,high performance.
+
+Tuturiol -6 
+==============================
+react alternatives.
+
+angular , react, vuejs are all highly scalable but not jquery
+
+Tuturiol -7
+==============================
+Two kinds of applications
+
+Single page application.
+  content is rendered in one HTML page,  content is rendered on client.
+  everything is managed with javascript react
+  Every component will be react component
+  only one reactDOM.render method 
+  only one root component
+
+multipage application.
+  multiple pages ,content is rendered on server.
+  entire page is not in react control.
+  reactDOM.render method will be called per widget.
+
+Tuturiol -8
+==============================
+course outline
+
+1. Getting Started
+2. Basics
+3. Debugging
+4. styling components
+5. component deep dive
+6. Http request
+7. Routing
+8. Forms and validation
+9. redux
+10. authentication
+11. Testing introduction
+12. deployment
+13. Bonus(Animations, webpacks)
+
+Tuturiol -9
+==============================
+get the most out of this course
+
+Tuturiol-10
+===============================
+ https://reactjs.org/
+ https://codepen.io/anon/pen/MELQaQ
+
+
