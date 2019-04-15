@@ -1,5 +1,53 @@
 Reactjs
 
+15/04/2019
+================
+
+session-2
+========================================================================================
+Tuturiol-1
+==============================
+Next Gen javascripts
+ example like arrows, lets, constants etc
+ Es6 concepts
+ clean and robust app using advanced js concepts
+
+Tuturiol-2
+==============================
+
+let and const
+  are different ways of creating variables
+
+In es6 - have introduced 2 different variables
+
+In js we normally create a variable with keyword var
+
+Henceforth, in ES6 Concepts we use those varibles say  let and const
+
+use let to create a variable is really a varible
+use const to create a variable that is really not changed
+
+
+Tuturiol-3
+==============================
+Arrow functions
+
+const funname = () => {
+// code.
+}
+	
+no more issues with this keyword.
+Notes: 
+ ()-> is optional only when we have only one arg
+ (arg1,arg2)-handling with multiple paramaters
+ shorthand function line. 
+ 
+
+
+
+
+
+
 13/04/2019
 
 session-1
