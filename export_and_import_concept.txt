@@ -1,0 +1,41 @@
+//Sample function
+
+//file_1 person.js
+
+const Person = {
+ //some piece of code 
+}
+
+export default Person 
+
+
+// file-2 utility.js
+
+export const clfun =() => {
+  // some piece of code
+}
+
+
+export const variable = 'girish';
+
+
+===============================================================
+import concept here.
+
+// file-3 app.js
+// import Type for default one.
+
+import person from './person.js'
+import prs from './person.js'
+
+// import type for const type.
+
+import {clfun} from './utility.js'
+import {variable} from './utility.js'
+
+other options for named exports to be imported
+
+import {clfun as clf} from  './utitlity.js'
+import * as bundled from './utitlity.js' // in this case we have to access the data as bundled.clf
+
+ 
