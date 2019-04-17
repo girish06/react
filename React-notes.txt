@@ -1,5 +1,61 @@
 Reactjs
 
+
+17/04/2019
+================
+
+
+session-2
+========================================================================================
+Tuturiol-4:
+==============================
+Exports and imports(modules)
+
+javasccript code is splitted up in mulitple files
+to import them in correct order in html file
+
+main idea of these concetps to import the content of other js file.
+
+Export js:
+    by default key word
+    by const
+
+   export can hold function
+   export can hold variables
+
+
+import:
+   its in two different types.
+   one for default type
+   one for constant type
+
+Tuturiol-5:
+===============================
+
+class concepts:
+
+classes are nothing but blueprint for javascript objects
+
+it has class keyword
+it has properties and method.
+
+
+access the properties of class as normal as oops concepts.
+inheritance concepts.
+super() method
+
+constructor method: to initiate the class.
+
+
+
+
+
+
+
+ 
+
+
+
 15/04/2019
 ================
 
@@ -14,14 +70,8 @@ Next Gen javascripts
 
 Tuturiol-2
 ==============================
-
-let and const
-  are different ways of creating variables
-
-In es6 - have introduced 2 different variables
-
 In js we normally create a variable with keyword var
-
+ 
 Henceforth, in ES6 Concepts we use those varibles say  let and const
 
 use let to create a variable is really a varible

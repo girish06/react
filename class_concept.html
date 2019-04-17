@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>React-let-const</title>
+  <script>
+
+class human {
+   constructor() {
+     this.gender = 'male';
+   }
+  printGender() {
+    console.log(this.gender);
+  }
+}
+   
+class person extends human {
+   constructor() {
+      super();
+      this.name= 'girish-test';
+      this.gender = 'female';
+   }
+  printMyName() {
+     console.log(this.name);
+  }
+}
+
+const pers = new person();
+pers.printMyName();
+pers.printGender();
+
+  </script>
+ </head>
+<body>
+  <p>ES6 concepts , let and constant var in reactjs</p>
+</body>
+</html>
+ 
