@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>React-let-const</title>
+  <script>
+// try this code js bin
+class human {
+   gender = 'male';
+
+  printGender =() => {
+    console.log(this.gender);
+  }
+}
+   
+class person extends human {
+
+     name= 'girish-test';
+     gender = 'female';
+   
+  printMyName = () => {
+     console.log(this.name);
+  }
+}
+
+const pers = new person();
+pers.printMyName();
+pers.printGender();
+
+  </script>
+ </head>
+<body>
+  <p>ES6 concepts , class properties and methods </p>
+  <p>This script will not work ,becuase it requires Bable</p>
+</body>
+</html>
+ 

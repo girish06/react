@@ -1,5 +1,97 @@
 Reactjs
 
+19/04/2019
+===============
+session-2
+Tuturiol-6:
+==============================
+class methods and properties
+
+properties are like variables
+methods are like functions attached to the classs or object
+
+ES6
+->Properties in constructor function (like using this keyword) 
+
+ES7
+-> We can directly declare the variables in class
+-> directly use arrow functions
+
+
+Tuturiol-7:
+==============================
+
+spread and rest operators:
+
+  ... three dots .
+
+ we call it spread and rest operators depends where we use it.
+
+spread operators:
+  use to split up the array elements and object properties.
+  syntax: 
+     const newArr = [...oldArr,4,5];
+     const newObj = {...oldObj, newob:5}
+
+rest operators:
+  used to merge the list of function argument into an array
+ 
+syntax: // this is used to sort the array values
+   function sortArgs(...args) {
+      return args.sort()
+   }
+
+
+Tuturiol-8:
+==============================
+
+Destructuring:     	
+ 
+Easily to extract the array elements or object properties and store them in variables.. somthing like spread operator does but not .
+
+array destructuring 
+ [a,b] = ['girish', '27']
+ console.log(b); // output as 27
+object destructuring
+ {name} = {name:'girish', age:'27}
+ console.log(name); // output girish
+ console.log(age); // output as undefined
+
+
+
+Tuturiol-9:
+==============================
+Reference and primitives type:
+
+Primitives type:
+
+Number,string, boolean are all types of primitives
+
+Reference type:
+
+Objects and arrays are type of reference 
+
+objects are stored in memory,we store a pointer in the place memory
+if we update the value for the object. it will update the pointer variable in the memory.
+
+so avoid this kind of conflicts , we have to use spread operator for copying the object or arrays.
+
+
+Tuturiol-10
+=============================
+Refreshing the array functions
+
+
+
+Tuturial-10
+=============================
+overview result of the course
+
+
+
+
+
+
 
 17/04/2019
 ================
@@ -20,7 +112,7 @@ Export js:
     by default key word
     by const
 
-   export can hold function
+   export can hold function 
    export can hold variables
 
 
