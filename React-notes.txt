@@ -1,24 +1,110 @@
 Reactjs
 
+
+
 19/04/2019
 ===============
+session-3: indersatanding the basic features and syntax
+Tuturiol-1:
+==============================
+ just an intro.
+
+Tuturiol-2:
+==============================
+Building the workflow
+
+To build single page and multipage application.
+ why
+   To optimize the code
+   To use next generation javascript features
+   Bable- parse our code
+   to make productive
+
+How-?
+  Using dependency management tool like NPM or yarn(third party packages)
+  use bundler,  recommended webpack
+   -> we write lot of code with different files and folders, though we need to ship the code as bundled
+   -> webpack is used to bundle the files
+   -> complier (next gen javascript),  we use babel+presets
+   -> development server
+
+Tuturiol-3:
+==============================
+
+setting up the enviroment:
+
+make sure we have nodejs, npm installed globally with the lastest version.
+
+installations:
+[1]sudo npm install -g create-react-app
+   will get something like below
+
+  /usr/local/bin/create-react-app -> /usr/local/lib/node_modules/create-react-app/index.js
+  + create-react-app@2.1.8
+  added 63 packages from 20 contributors in 7.78s
+
+[2]. create-react-app <app name>
+    this will create a app package 
+
+Tuturiol-4
+=============================
+Understanding the folder structure.
+
+Root files:
+
+package.lock.json
+   - its just lock the dependencies
+package.json
+   - contains the dependencies of the project like scripts react dom, react,react scripts.
+node_modules
+   - its has all the dependencies and sub dependencies of the project
+
+public folder:
+  index.html  -  basically contain the div id where we render the raeact app , and include the headers and libraries
+  manifest.json - metadata about our application- progressive web app.
+
+src: 
+  development goes here..
+
+
+Tuturiol-5:
+============================
+Understanding components basics:
+-> import/export
+-> react component
+-> render method
+-> every react component should have view.
+-> In component the code which is return is not really HTML code.its an jsx which is automically complied valid js at the end.
+
+
+Tuturiol-6:
+============================
+understanding jsx
+
+
+alternative for jsx in react would be implemented by createElement function which has four params
+ 1. div
+ 2. configuration which can be null
+ 3. children -  is nothing but what is nested inside the div
+
+
+=============================================================================================================================================================
 session-2
 Tuturiol-6:
-==============================
+============================== 
 class methods and properties
 
-properties are like variables
+properties are like variable 
 methods are like functions attached to the classs or object
 
 ES6
-->Properties in constructor function (like using this keyword) 
+->Properties in constructor function (like using this keyword)
 
 ES7
 -> We can directly declare the variables in class
 -> directly use arrow functions
 
 
-Tuturiol-7:
 ==============================
 
 spread and rest operators:
@@ -193,7 +279,7 @@ Notes:
 13/04/2019
 
 session-1
-========================================================================================
+=============================================================================================================================================================
 Tuturiol-1
 ==============================
 Reactjs is a library
