@@ -103,7 +103,16 @@ Tuturiol-8
 ===========================
  Creating the functional component
  
- created custom component and imported and exported and rendered.	
+ created custom component and imported and exported and rendered.
+
+Tuturiol-9
+===========================
+working with components
+
+Tuturiol-10
+===========================
+outputting the dynamic content
+	
 
 
 =============================================================================================================================================================
