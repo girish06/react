@@ -84,8 +84,26 @@ understanding jsx
 
 alternative for jsx in react would be implemented by createElement function which has four params
  1. div
- 2. configuration which can be null
+ 2. configuration which can be null (which is used in turn as object like className property)
  3. children -  is nothing but what is nested inside the div
+
+
+Tuturiol-7:
+==========================
+Restrictions in jsx
+
+1 .example we should use className instead of class , since we use class like oops concept.
+   but when the html renders in the broswer it will be a class when we inspect it.
+
+2. our jsx expressions can have only one root element
+   we cannot write code outside  the root element say outside the div
+
+
+Tuturiol-8
+===========================
+ Creating the functional component
+ 
+ created custom component and imported and exported and rendered.	
 
 
 =============================================================================================================================================================
