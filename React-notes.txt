@@ -78,14 +78,16 @@ Adding stylesheets and styling the components
 while importing the css file, its required to have the dot.extension,
 we can ignore only for .js file.
 
-Tuturiol-19
+Tuturiol-20
 ===========================
 understanding the inline styles
 
 create a style variable inside the render method and assign the variable with style tag.
 
 
-
+Tuturiol-21
+==========================
+Assignment
 
 
 19/04/2019
