@@ -1,6 +1,13 @@
 Reactjs
+20/04/2019
+==============
+Tuturiol-11
+=============================
+Working with props
 
-
+dyanamic content with  props
+pass the props in function
+we can set the dynamic content using {} inside html tag.
 
 19/04/2019
 ===============
@@ -112,8 +119,6 @@ working with components
 Tuturiol-10
 ===========================
 outputting the dynamic content
-	
-
 
 =============================================================================================================================================================
 session-2

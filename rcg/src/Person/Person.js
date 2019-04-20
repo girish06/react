@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const person = () => {
-  return <p>my custom component and my age is {Math.floor(Math.random()*20)}</p>
+const person = (props) => {
+  return <p>my custom component name is {props.name} and my age is {props.age}</p>
 };
 
 export default person;
