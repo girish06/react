@@ -89,6 +89,28 @@ Tuturiol-21
 ==========================
 Assignment
 
+Tuturiol -22
+=========================
+
+React hooks:
+
+state can be used only in class based components.
+
+Inorder to use those components in functions based - we use react hooks
+
+react hooks basicaly a collection of functions
+
+all hooks start with use keyword
+usestate hook:
+
+it always return two elements
+
+// Needs  to do practical work
+
+
+
+
+
 
 19/04/2019
 ===============
