@@ -13,6 +13,20 @@ we can set the dynamic content using {} inside html tag.
 Tururiol-12
 =============================
 Understanding the childrens property
+use : props.children
+
+Note: make the proper jsx code when we want to retain children data with root div element
+
+
+Tuturiol-13
+============================
+understanding and usging the state
+
+state property can be when we are inheriting the component class.
+state: can be in class  based react component which is a default way of adding the state.
+
+Props are managed outside the component
+state are managed inside the component
 
 
 
