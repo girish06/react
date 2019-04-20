@@ -12,6 +12,12 @@ class App extends Component {
 
  clickSwitchHandler = () => {
    console.log('successfully clicked');
+   this.setState( {
+     personData: [
+       { name: "girish", age: 20},
+       { name: "giri",  age: 12}
+     ]
+   })
  }
 
   render() {

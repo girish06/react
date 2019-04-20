@@ -28,7 +28,7 @@ state: can be in class  based react component which is a default way of adding t
 Props are managed outside the component 
 state are managed inside the component
 
-Tuturiol-13
+Tuturiol-14
 ============================
 Handling the events
 
@@ -37,6 +37,14 @@ its better to have  the click function name with handler suffix
 
 onclick function should not use function braces say like (). because on page load it will call that function which is not required
 should use arrow function as it follows ES6 concepts
+
+
+Tuturiol-15
+============================
+manuplating the state
+
+Updating the DOM using the state.
+use setState
 
 
 19/04/2019
