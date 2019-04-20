@@ -9,6 +9,13 @@ dyanamic content with  props
 pass the props in function
 we can set the dynamic content using {} inside html tag.
 
+
+Tururiol-12
+=============================
+Understanding the childrens property
+
+
+
 19/04/2019
 ===============
 session-3: indersatanding the basic features and syntax
