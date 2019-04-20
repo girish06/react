@@ -10,11 +10,11 @@ class App extends Component {
    ]
  }
 
- clickSwitchHandler = () => {
+ clickSwitchHandler = (name) => {
    console.log('successfully clicked');
    this.setState( {
      personData: [
-       { name: "girish", age: 20},
+       { name: name, age: 20},
        { name: "giri",  age: 12}
      ]
    })
@@ -29,9 +29,14 @@ class App extends Component {
            <Person name="props1" age ="12">Learn react</Person>
            <h2>Accessing the state value inside the Component</h2>
 
-           <Person  name = {this.state.personData[0].name} age = {this.state.personData[0].age} />
-            <Person  name = {this.state.personData[1].name} age = {this.state.personData[1].age} />
-             <button onClick={this.clickSwitchHandler}>click...!</button>
+           <Person
+              name = {this.state.personData[0].name}
+              age = {this.state.personData[0].age} />
+           <Person
+              name = {this.state.personData[1].name}
+              age = {this.state.personData[1].age}
+              click={this.clickSwitchHandler.bind(this,'Girish learning react')} />
+           <button onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
       </div>
     );
     // return React.createElement('div','null','h1','welcome to react learning')

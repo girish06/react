@@ -43,8 +43,30 @@ Tuturiol-15
 ============================
 manuplating the state
 
-Updating the DOM using the state.
+Updating the DOM using the state
 use setState
+
+Tuturiol-16
+============================
+stateless vs statefull components
+
+// needs  work
+
+Tuturiol-17
+============================
+
+passing method reference
+
+methods also can be passed as props
+
+another way to send the data to the function parameter
+<button onClick={() => this.clickSwitchHandler('giri...!')}>click...!</button>
+
+
+
+
+
+
 
 
 19/04/2019
