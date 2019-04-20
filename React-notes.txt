@@ -62,8 +62,24 @@ methods also can be passed as props
 another way to send the data to the function parameter
 <button onClick={() => this.clickSwitchHandler('giri...!')}>click...!</button>
 
+Tuturiol-18
+===========================
+Two way binding.
+
+event : onChange event
+we have to pass the event keyword in the function
 
 
+
+Tuturiol-19
+===========================
+Adding stylesheets and styling the components
+
+while importing the css file, its required to have the dot.extension,
+we can ignore only for .js file.
+
+Tuturiol-19
+===========================
 
 
 

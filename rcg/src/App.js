@@ -20,6 +20,15 @@ class App extends Component {
    })
  }
 
+ onchangeNameHandler = (event) => {
+   this.setState( {
+   personData: [
+     { name: "giri",  age: 12},
+     { name: event.target.value, age: 20},
+   ]
+ })
+ }
+
   render() {
     return (
       <div className="App">
@@ -35,8 +44,9 @@ class App extends Component {
            <Person
               name = {this.state.personData[1].name}
               age = {this.state.personData[1].age}
-              click={this.clickSwitchHandler.bind(this,'Girish learning react')} />
-           <button onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+              click={this.clickSwitchHandler.bind(this,'Girish learning react')}
+              onchangeName = {this.onchangeNameHandler} />
+              <button onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
       </div>
     );
     // return React.createElement('div','null','h1','welcome to react learning')
