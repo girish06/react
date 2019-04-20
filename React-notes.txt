@@ -25,9 +25,18 @@ understanding and usging the state
 state property can be when we are inheriting the component class.
 state: can be in class  based react component which is a default way of adding the state.
 
-Props are managed outside the component
+Props are managed outside the component 
 state are managed inside the component
 
+Tuturiol-13
+============================
+Handling the events
+
+onClick- jsx code we use Caps c.
+its better to have  the click function name with handler suffix		
+
+onclick function should not use function braces say like (). because on page load it will call that function which is not required
+should use arrow function as it follows ES6 concepts
 
 
 19/04/2019
