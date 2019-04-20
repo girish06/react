@@ -80,6 +80,9 @@ we can ignore only for .js file.
 
 Tuturiol-19
 ===========================
+understanding the inline styles
+
+create a style variable inside the render method and assign the variable with style tag.
 
 
 

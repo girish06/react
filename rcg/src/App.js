@@ -30,6 +30,15 @@ class App extends Component {
  }
 
   render() {
+  const btnstyle = {
+    backgroundColor: 'grey',
+    font: 'inherit',
+    padding: '8px',
+    cursor: 'pointer',
+    border: '1px solid #eee',
+    width: '80px'
+  };
+
     return (
       <div className="App">
            <h1>Welcom to react Learning</h1>
@@ -46,7 +55,7 @@ class App extends Component {
               age = {this.state.personData[1].age}
               click={this.clickSwitchHandler.bind(this,'Girish learning react')}
               onchangeName = {this.onchangeNameHandler} />
-              <button onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+              <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
       </div>
     );
     // return React.createElement('div','null','h1','welcome to react learning')
