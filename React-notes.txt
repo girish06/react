@@ -1,4 +1,21 @@
 Reactjs
+21/04/2019
+session-4
+working with lists and and conditionals
+
+Tuturiol-1
+============
+Rendering list and conditional content:
+ To output the content conditonally and work with listing
+
+Tuturiol-2
+============ 
+Rendering the content conditionally
+
+can inject  jsvascript in jsx code using {} curly braces
+conditions will get differ from javascript and vue js..  react uses in different way
+
+=============================================================================================================================================================
 20/04/2019
 ==============
 Tuturiol-11

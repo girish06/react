@@ -7,7 +7,8 @@ class App extends Component {
    personData: [
      { name: "girish", age: 10},
      { name: "giri",  age: 12}
-   ]
+   ],
+   showPersons: false
  }
 
  clickSwitchHandler = (name) => {
@@ -29,6 +30,11 @@ class App extends Component {
  })
  }
 
+ toggleperson = () => {
+   const doesShow = this.state.showPersons;
+   this.setState({showPersons: !doesShow});
+ }
+
   render() {
   const btnstyle = {
     backgroundColor: 'grey',
@@ -36,7 +42,7 @@ class App extends Component {
     padding: '8px',
     cursor: 'pointer',
     border: '1px solid #eee',
-    width: '80px'
+    width: '150px'
   };
 
     return (
@@ -46,16 +52,20 @@ class App extends Component {
            <Person name="props" age="10">Hello</Person>
            <Person name="props1" age ="12">Learn react</Person>
            <h2>Accessing the state value inside the Component</h2>
-
-           <Person
-              name = {this.state.personData[0].name}
-              age = {this.state.personData[0].age} />
-           <Person
-              name = {this.state.personData[1].name}
-              age = {this.state.personData[1].age}
-              click={this.clickSwitchHandler.bind(this,'Girish learning react')}
-              onchangeName = {this.onchangeNameHandler} />
-              <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+                <button style={btnstyle} onClick={this.toggleperson}>Toggle me...!</button>
+          { this.state.showPersons ?
+           <div>
+             <Person
+                name = {this.state.personData[0].name}
+                age = {this.state.personData[0].age} />
+             <Person
+                name = {this.state.personData[1].name}
+                age = {this.state.personData[1].age}
+                click={this.clickSwitchHandler.bind(this,'Girish learning react')}
+                onchangeName = {this.onchangeNameHandler} />
+                  <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+           </div>: null
+          }
       </div>
     );
     // return React.createElement('div','null','h1','welcome to react learning')
