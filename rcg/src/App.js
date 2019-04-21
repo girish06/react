@@ -36,6 +36,13 @@ class App extends Component {
  }
 
 
+ deletePersonHandler = (personIndex) => {
+    const personData = this.state.personData;
+    personData.splice(personIndex,1);
+    this.setState({personData: personData});
+ }
+
+
   render() {
   const btnstyle = {
     backgroundColor: 'grey',
@@ -46,30 +53,38 @@ class App extends Component {
     width: '150px'
   };
   let persons = null;
+  let person_dumy = null;
 
   if( this.state.showPersons ) {
-
     persons = (
        <div>
          <p><b>dynamic retirval data</b></p>
-         {this.state.personData.map(person =>{
+         {this.state.personData.map((person,index) =>{
              return <Person
+             click ={this.deletePersonHandler.bind(this,index)}
              name={person.name}
              age={person.age}
              />
          })}
-         <p> <b>temp data</b>s </p>
-         <Person
-            name = {this.state.personData[0].name}
-            age = {this.state.personData[0].age} />
-         <Person
-            name = {this.state.personData[1].name}
-            age = {this.state.personData[1].age}
-            click={this.clickSwitchHandler.bind(this,'Girish learning react')}
-            onchangeName = {this.onchangeNameHandler} />
-              <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
        </div>
     );
+  }
+  else {
+   /*
+    person_dumy = (
+    <div>
+    <Person
+       name = {this.state.personData[0].name}
+       age = {this.state.personData[0].age} />
+    <Person
+       name = {this.state.personData[1].name}
+       age = {this.state.personData[1].age}
+       click={this.clickSwitchHandler.bind(this,'Girish learning react')}
+       onchangeName = {this.onchangeNameHandler} />
+       <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+   </div>
+    );
+    */
   }
 
     return (
