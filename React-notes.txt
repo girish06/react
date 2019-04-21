@@ -53,6 +53,15 @@ To follow the good practise. we need to copy the value of array or object
  slice method simply copies the array 
 
 
+Tuturiol -8
+============
+list and keys
+
+
+keys are important when we render array in list 
+
+keys are used to update the list effencianlty.
+
 =============================================================================================================================================================
 20/04/2019
 ==============
