@@ -21,13 +21,33 @@ class App extends Component {
    })
  }
 
- onchangeNameHandler = (event) => {
-   this.setState( {
-   personData: [
-     { name: "giri",  age: 12},
-     { name: event.target.value, age: 20},
-   ]
- })
+ onchangeNameHandler = ( event, id ) => {
+   // get the index of the array.
+     const PersonsIndex = this.state.personData.findIndex(p => {
+     return p.id === id;
+   })
+
+   // get the person.
+   const person = {
+     ...this.state.personData[PersonsIndex]
+   }
+
+   // aternative approach here
+   //const person = Object.assign({},this.state.personData[PersonsIndex]);
+
+   person.name = event.target.value;
+
+   const persons = [...this.state.personData]
+   persons[PersonsIndex] = person;
+
+  this.setState({personData: persons})
+
+ //   this.setState( {
+ //   personData: [
+ //     { name: "giri",  age: 12},
+ //     { name: event.target.value, age: 20},
+ //   ]
+ // })
  }
 
  toggleperson = () => {
@@ -66,6 +86,7 @@ class App extends Component {
              name={person.name}
              age={person.age}
              key={person.id}
+             onchangeName={(event) => this.onchangeNameHandler(event,person.id)}
              />
          })}
        </div>

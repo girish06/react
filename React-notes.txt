@@ -62,6 +62,13 @@ keys are important when we render array in list
 
 keys are used to update the list effencianlty.
 
+Tuturiol-9
+===========
+Flexible lists
+
+update the array list dynamically for all the fields.
+
+
 =============================================================================================================================================================
 20/04/2019
 ==============
