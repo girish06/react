@@ -40,6 +40,18 @@ lists and state
 
 example done with deleting the data.
 
+Tuturiol-7
+============
+using immutable state
+
+In javascript objects and arrays are reference  types.
+needs to update the state by immutable way by spread operator.
+
+the data which we get from the state is really a pointers.. 
+
+To follow the good practise. we need to copy the value of array or object 
+ slice method simply copies the array 
+
 
 =============================================================================================================================================================
 20/04/2019
