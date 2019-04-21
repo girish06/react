@@ -15,6 +15,14 @@ Rendering the content conditionally
 can inject  jsvascript in jsx code using {} curly braces
 conditions will get differ from javascript and vue js..  react uses in different way
 
+
+Tuturiol-3
+===========
+Render content js way
+-we can write the js condition inside the render method and we can create a variable to render in way 
+ of jsx and print the element in return method.. 
+
+
 =============================================================================================================================================================
 20/04/2019
 ==============

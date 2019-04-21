@@ -35,6 +35,7 @@ class App extends Component {
    this.setState({showPersons: !doesShow});
  }
 
+
   render() {
   const btnstyle = {
     backgroundColor: 'grey',
@@ -44,6 +45,24 @@ class App extends Component {
     border: '1px solid #eee',
     width: '150px'
   };
+  let persons = null;
+
+  if( this.state.showPersons ) {
+
+    persons = (
+       <div>
+         <Person
+            name = {this.state.personData[0].name}
+            age = {this.state.personData[0].age} />
+         <Person
+            name = {this.state.personData[1].name}
+            age = {this.state.personData[1].age}
+            click={this.clickSwitchHandler.bind(this,'Girish learning react')}
+            onchangeName = {this.onchangeNameHandler} />
+              <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
+       </div>
+    );
+  }
 
     return (
       <div className="App">
@@ -53,19 +72,7 @@ class App extends Component {
            <Person name="props1" age ="12">Learn react</Person>
            <h2>Accessing the state value inside the Component</h2>
                 <button style={btnstyle} onClick={this.toggleperson}>Toggle me...!</button>
-          { this.state.showPersons ?
-           <div>
-             <Person
-                name = {this.state.personData[0].name}
-                age = {this.state.personData[0].age} />
-             <Person
-                name = {this.state.personData[1].name}
-                age = {this.state.personData[1].age}
-                click={this.clickSwitchHandler.bind(this,'Girish learning react')}
-                onchangeName = {this.onchangeNameHandler} />
-                  <button style={btnstyle} onClick={this.clickSwitchHandler.bind(this,'Girish react')}>click...!</button>
-           </div>: null
-          }
+       {persons}
       </div>
     );
     // return React.createElement('div','null','h1','welcome to react learning')
