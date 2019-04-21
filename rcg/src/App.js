@@ -51,6 +51,14 @@ class App extends Component {
 
     persons = (
        <div>
+         <p><b>dynamic retirval data</b></p>
+         {this.state.personData.map(person =>{
+             return <Person
+             name={person.name}
+             age={person.age}
+             />
+         })}
+         <p> <b>temp data</b>s </p>
          <Person
             name = {this.state.personData[0].name}
             age = {this.state.personData[0].age} />

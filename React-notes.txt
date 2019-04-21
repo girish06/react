@@ -20,7 +20,24 @@ Tuturiol-3
 ===========
 Render content js way
 -we can write the js condition inside the render method and we can create a variable to render in way 
- of jsx and print the element in return method.. 
+ of jsx and print the element in return method..
+
+Tuturiol-4
+============
+ouputing list intro:
+we have list of data in existing tuturiols which we printed statically.
+when we go for large applications we used to update or delete or add new data which we retrive from server.
+
+Tuturiol-5
+============
+outputing the list
+vanilla javascript gives the function which we can be converted into array.
+// needs to work
+
+Tuturiol-6
+=============
+
+lists and state
 
 
 =============================================================================================================================================================
