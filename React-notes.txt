@@ -32,13 +32,12 @@ Tuturiol-5
 ============
 outputing the list
 vanilla javascript gives the function which we can be converted into array.
-// needs to work
+use map functions
 
 Tuturiol-6
 =============
 
 lists and state
-
 
 =============================================================================================================================================================
 20/04/2019
