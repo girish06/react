@@ -1,4 +1,25 @@
 Reactjs
+28/04/2019
+============
+session-5
+
+Stylinig the reaact component 
+
+Tuturiol-1
+Intro about the styles
+
+Tuturiol-2
+Its about the styles ,just an intro about button style how we can implement it.
+
+Tuturiol-3
+
+dynamic css based on condition (here we done with for button)
+
+
+
+
+
+=============================================================================================================================================================
 21/04/2019
 session-4
 working with lists and and conditionals
