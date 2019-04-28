@@ -111,14 +111,23 @@ class App extends Component {
     );
     */
   }
+     const classes = [];
 
+     if( this.state.personData  <=2) {
+       classes.push('red');
+     }
+     if (this.state.personData <=1) {
+       classes.push('bold');
+     }
+
+     //let classes = ['red', 'bold'].join(' ');
     return (
       <div className="App">
            <h1>Welcom to react Learning</h1>
-           <h2>Accessing the props outside the component</h2>
+           <p>Accessing the props outside the component</p>
            <Person name="props" age="10">Hello</Person>
            <Person name="props1" age ="12">Learn react</Person>
-           <h2>Accessing the state value inside the Component</h2>
+           <h2 className = {classes.join(' ')}>Accessing the state value inside the Component</h2>
                 <button style={btnstyle} onClick={this.toggleperson}>Toggle me...!</button>
        {persons}
       </div>

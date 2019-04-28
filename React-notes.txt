@@ -12,8 +12,16 @@ Tuturiol-2
 Its about the styles ,just an intro about button style how we can implement it.
 
 Tuturiol-3
+setting styles dynamically:
 
 dynamic css based on condition (here we done with for button)
+
+Tuturiol-4
+settinig class names dynamically.
+
+
+
+
 
 
 
