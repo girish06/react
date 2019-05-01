@@ -1,4 +1,25 @@
 Reactjs
+01/05/2019
+==========
+session-5
+
+Tuturiol-5
+
+adding and using radium
+
+npm install --save radium
+
+Radium is used to  implement css and media queries
+
+
+Tuturiol-6
+=====================
+Using radium for media queries.
+
+
+
+
+
 28/04/2019
 ============
 session-5
@@ -9,7 +30,8 @@ Tuturiol-1
 Intro about the styles
 
 Tuturiol-2
-Its about the styles ,just an intro about button style how we can implement it.
+Its about the styles ,just 
+an intro about button style how we can implement it.
 
 Tuturiol-3
 setting styles dynamically:
@@ -17,15 +39,7 @@ setting styles dynamically:
 dynamic css based on condition (here we done with for button)
 
 Tuturiol-4
-settinig class names dynamically.
-
-
-
-
-
-
-
-
+settinigclass names dynamically.
 
 =============================================================================================================================================================
 21/04/2019
