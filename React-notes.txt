@@ -24,10 +24,36 @@ use import of styleroot component
 
 Tuturiol-7
 ====================
+
+// Needs work in fresh branch
+
+
 enabling and working with css
 
 
 css modules
+
+run npm eject
+   it will create news files with creating new folder 
+    -> config
+    -> scripts
+webpack -> bundling all the files together and used to optimization
+
+
+Tuturiol-8
+==================
+
+// needs work
+
+psedudo selectors
+
+==================
+Tuturiol-9
+
+//
+
+media queries
+
 
 
 
