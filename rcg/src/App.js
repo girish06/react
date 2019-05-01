@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Radium, {StyleRoot} from 'radium';
+//import Radium, {StyleRoot} from 'radium';
 import Person from './Person/Person';
 
 class App extends Component {
@@ -73,12 +73,7 @@ class App extends Component {
     padding: '8px',
     cursor: 'pointer',
     border: '1px solid #eee',
-    width: '150px',
-    cursor: 'pointer',
-    ':hover': {
-      backgroundColor: 'lightgreen',
-      color: 'black'
-    }
+    width: '150px'
   };
   let persons = null;
   let person_dumy = null;
@@ -99,10 +94,6 @@ class App extends Component {
        </div>
     );
     btnstyle.backgroundColor = 'red';
-    btnstyle['.hover'] ={
-      backgroundColor: 'blue',
-      color: 'black',
-    };
   }
   else {
    /*
@@ -132,7 +123,6 @@ class App extends Component {
 
      //let classes = ['red', 'bold'].join(' ');
     return (
-      <StyleRoot>
       <div className="App">
            <h1>Welcom to react Learning</h1>
            <p>Accessing the props outside the component</p>
@@ -142,11 +132,10 @@ class App extends Component {
                 <button style={btnstyle} onClick={this.toggleperson}>Toggle me...!</button>
        {persons}
       </div>
-      </StyleRoot>
     );
     // return React.createElement('div','null','h1','welcome to react learning')
     //return React.createElement('div',{className: 'App'},React.createElement('h1','null','welcome to react learning'));
   }
 }
 
-export default Radium(App);
+export default App;

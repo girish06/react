@@ -16,6 +16,19 @@ Tuturiol-6
 =====================
 Using radium for media queries.
 
+use import radium
+use export radium
+
+
+use import of styleroot component 
+
+Tuturiol-7
+====================
+enabling and working with css
+
+
+css modules
+
 
 
 
